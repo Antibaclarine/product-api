@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .Gadjet{
     background-color: black;
 }
@@ -237,10 +241,13 @@ left: 130px;
 
   @media (max-width: 768px) {
     body{
-        
+      
+      flex-wrap: wrap;
+        overflow-x: hidden;
+        max-width: 90%;
     }
     .section{
-        max-width: 57%;
+        max-width: 68%;
     }
     .gadjet {
       flex-direction: column;
@@ -250,33 +257,39 @@ left: 130px;
     }
   
     #gad {
-      font-size: 28px;
-      margin-bottom: 10px;
+      font-size: 14px;
+      margin-top: 10px;
     }
     .image{
-        width: 65%;
-        height: 8vh;
+        width: 100%;
+        /* height: 8vh; */
     }
   
     #get {
-      font-size: 20px;
+      font-size: 14px;
     }
   
     .divs {
       /* grid-template-columns: repeat(1,1fr); */
       width: 80%;
     }
+   .hof{
+    width: 2%;
+   }
   
     #button1 {
       width: 30%;
+      height: 22px;
       margin-top: 10px;
       margin-bottom: 20px;
+      margin-left: 25%;
     }
     .your{
-        width: 57%;
-        height: 40vh;
+        width: 68%;
+        height: 45vh;
         font-size: 10px;
-    }#y{
+    }
+    #y{
         font-size: 20px;
     }
     .h1b{
@@ -307,13 +320,14 @@ left: 130px;
     font-size: 10px;
         }
         .videog{
+          font-size: 9px;
              display: grid;
              grid-template-columns: repeat(3,1fr);
              /* gap: 2%; */
             justify-content: space-between;
             position: relative;
             top: 125px;
-            max-width: 65%;
+            max-width: 75%;
         }
         #vo{
             border: solid 0.5px;
@@ -331,13 +345,13 @@ left: 130px;
              
              margin-bottom: 15%;
              margin-left:3% ;
-             width: 5%;
+             width: 35%;
              
           }
           .last{
             position: relative;
             top: 900px;
-            width: 40%;
+            width: 60%;
           }
           .footer{
             color: white;
@@ -347,8 +361,15 @@ left: 130px;
        grid-template-columns: 1fr;
           position: relative;
           right: 80px;
-          width: 87.6%;
+          width: 76%;
           /* top: 200px; */
+          
+          }
+          .p{
+            width: 60%;
+            margin-left: 150px;
+            margin-top: -230px;
+            
           
           }
           .yellow{
@@ -391,7 +412,18 @@ left: 130px;
           }
 .p{
 position: relative;
-left: 50px;
+right: 110px;
+}
+.men{
+  position: relative;
+  left: 70px;
+}
+.mail{
+  padding: 15px;
+  background-color: yellow;
+  border:none;
+  width: 80%;
+
 }
         
         
