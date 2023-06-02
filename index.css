@@ -1,0 +1,404 @@
+.Gadjet{
+    background-color: black;
+}
+.gadjet{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    width: 100%;
+    height: 20vh;
+    color: white;
+    position: relative;
+    top: 35px;
+    
+}
+#gad{
+    font-weight: bold;
+    font-size: 34px;
+    position: relative;
+    bottom: 10px;
+}
+#get{
+    color: yellow;
+}
+
+.gadjet a{
+    color:white;
+    text-decoration: none;
+    
+}
+.gadjet a:hover {
+    
+    text-decoration: underline;
+}
+#button1{
+    width: 11%;
+    height: 8vh;
+    /* color: white; */
+    background-color: yellow;
+    position: relative;
+    right: 85px;
+}
+.divs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+    border: solid 0.5px;
+    border-style: hidden;
+    position: relative;
+    top: 25px;
+    left: 10%;
+    width: 15%;
+    height: 3vh;
+}
+#d1{
+background-color: yellow;
+}
+#d2{
+   background-color: black; 
+}
+#c{
+    margin-left: 30%;
+    border: solid 0.5px;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+    position: relative;
+    bottom:10px ;
+}
+.adivs{
+    border: solid 0.5px;
+    width: 15%;
+    height:10vh;
+    position: relative;
+    top: 35px;
+}
+.your{
+    background-color: rgb(180, 122, 180);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    top: 45px;
+    height: 60vh;
+}
+.gadg{
+    width: 90%;
+    height: 60vh;
+    position: relative;
+    right: 70px;
+}
+.h1b{
+position: relative;
+left: 130px;
+}
+#y{
+    font-size: 60px;
+}
+.button2{
+    
+}
+#o{
+    width: 30%;
+    height: 8vh;
+    background-color: yellow;
+}
+#ex{
+    width: 30%;
+    height: 8vh;
+    background-color: none;
+}
+.videog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 125px;
+}
+#vo{
+    border: solid 0.5px;
+    width: 15%;
+    height: 25vh;
+}
+.v1{
+    background-color: black;
+    color: white;
+}
+.Deals{
+    /* margin-left: 3%; */
+    background-color: whitesmoke;
+    height: 130vh;
+    background-size: cover;
+    position: relative;
+    top: 200px;
+}
+#products {
+    gap: 3%;
+    margin-top: 15px;
+     display: grid;
+     grid-template-columns: repeat(4 ,1fr);
+     position: relative;
+     top: 220px;
+     
+     margin-bottom: 15%;
+     margin-left:3% ;
+     
+  }
+  #products img{
+    width: 250px;
+    height: 200px;
+  }
+  #products button{
+    border-style: none;
+    padding: 14px 14px;
+    background-color: yellow;
+  }
+  
+  
+  #word4{
+    display: inline-flex;
+    font-size: 25px;
+    color: white;
+  }
+  #Home{
+    color: yellow;
+  }
+  .head{
+    margin-left: 30%;
+  }
+   
+.mail{
+  padding: 30px;
+  background-color: yellow;
+  border:none;
+  width: 90%;
+}
+.bx-send{
+  margin-left: -30px;
+}
+.bx-headphone{
+ width: 8%;
+ 
+}
+.line-container {
+  position: relative;
+}
+
+.line {
+  height: 2px;
+  background-color: #000;
+  width: 50%; 
+  margin-left: 100px;
+  margin-right: 10px;
+  position: relative;
+  left: 100px;
+}
+.line:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  width: 90px;
+  height: 2px;
+}
+.yellow{
+  display: grid;
+      grid-template-columns: repeat(3,1fr);
+}
+.test{
+  text-align: center;
+}
+.p{
+  margin-left: 600px;
+  margin-top: -230px;
+  
+
+}
+.men img{
+
+ border-radius: 6px;
+
+}
+.footer{
+    color: white;
+    background-color: #757373;
+  justify-content: space-between;
+  display: flex;
+  padding: 80px;
+  position: relative;
+  /* top: 200px; */
+  
+  }
+  .last{
+    position: relative;
+    top: 300px;
+  }
+
+  @media (max-width: 768px) {
+    body{
+        
+    }
+    .section{
+        max-width: 57%;
+    }
+    .gadjet {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      top: 0;
+    }
+  
+    #gad {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .image{
+        width: 65%;
+        height: 8vh;
+    }
+  
+    #get {
+      font-size: 20px;
+    }
+  
+    .divs {
+      /* grid-template-columns: repeat(1,1fr); */
+      width: 80%;
+    }
+  
+    #button1 {
+      width: 30%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .your{
+        width: 57%;
+        height: 40vh;
+        font-size: 10px;
+    }#y{
+        font-size: 20px;
+    }
+    .h1b{
+        position: relative;
+        left: 0px;
+        width: 60%;
+        }
+        .gadg{
+            width: 130%;
+            height: 40vh;
+            position: relative;
+            right: 30px;
+        }
+        #o{
+            width: 80%;
+            height: 5vh;
+            background-color: yellow;
+        }
+        #ex{
+            width: 80%;
+            height: 5vh;
+            background-color: none;
+        }
+        .button2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    font-size: 10px;
+        }
+        .videog{
+             display: grid;
+             grid-template-columns: repeat(3,1fr);
+             /* gap: 2%; */
+            justify-content: space-between;
+            position: relative;
+            top: 125px;
+            max-width: 65%;
+        }
+        #vo{
+            border: solid 0.5px;
+            width: 65%;
+            height: 15vh;
+            gap: 0%;
+        }
+        #products {
+            gap: 3%;
+            margin-top: 15px;
+             display: grid;
+             grid-template-columns: 1fr;
+             position: relative;
+             top: 220px;
+             
+             margin-bottom: 15%;
+             margin-left:3% ;
+             width: 5%;
+             
+          }
+          .last{
+            position: relative;
+            top: 900px;
+            width: 40%;
+          }
+          .footer{
+            color: white;
+            background-color: #757373;
+          justify-content: space-between;
+       display: grid;
+       grid-template-columns: 1fr;
+          position: relative;
+          right: 80px;
+          width: 87.6%;
+          /* top: 200px; */
+          
+          }
+          .yellow{
+            display: grid;
+                grid-template-columns: 1fr;
+          }
+          .adivs{
+            border: solid 0.5px;
+            width: 55%;
+            height:8vh;
+            position: relative;
+            top: 35px;
+        }
+        .divs {
+            /* grid-template-columns: repeat(1,1fr); */
+            width: 10%;
+          }
+          #products img{
+            width: 180%;
+            height: 200px;
+          }
+          .line {
+            height: 2px;
+            background-color: #000;
+            width: 50%; 
+            margin-left: 100px;
+            margin-right: 10px;
+            position: relative;
+            left: 10px;
+          }
+          .line:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: yellow;
+            width: 90px;
+            height: 2px;
+          }
+.p{
+position: relative;
+left: 50px;
+}
+        
+        
+  }
+  
+ 
+ 
+
+
+
